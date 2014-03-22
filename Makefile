@@ -1,5 +1,5 @@
 
-DOCKER_BASE_TAG_NAME = tomgruner/globallometree-base
+DOCKER_BASE_TAG_NAME ?= tomgruner/globallometree-base
 
 #Get the current directory of this Makefile as it may be included in other Makefiles
 #http://stackoverflow.com/questions/18136918/how-to-get-current-directory-of-your-makefile
