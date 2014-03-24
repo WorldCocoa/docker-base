@@ -1,6 +1,6 @@
 FROM ubuntu:12.04
 
-MAINTAINER Thomas Gruner, tom.gruner@gmail.com
+MAINTAINER Alex Tokar "alext@bitbamboo.com"
 
 RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe" > /etc/apt/sources.list
 
