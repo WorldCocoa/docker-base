@@ -2,8 +2,6 @@ FROM ubuntu:14.04
 
 MAINTAINER Alex Tokar "alext@bitbamboo.com"
 
-RUN echo "deb http://archive.ubuntu.com/ubuntu trusty main universe" > /etc/apt/sources.list
-
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update 
