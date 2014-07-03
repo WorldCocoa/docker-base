@@ -20,9 +20,7 @@ RUN locale-gen en_US.UTF-8 \
 
 ENV LC_ALL en_US.UTF-8
 
-#Use python setup tools to install pip with easy_install
 RUN easy_install pip
-#Use pip to upgrade python setuptools
 # stack overflow solution to error: 
 # http://stackoverflow.com/questions/20905350/latest-pip-fails-with-requires-setuptools-0-8-for-dist-info
 RUN pip install setuptools --no-use-wheel --upgrade
